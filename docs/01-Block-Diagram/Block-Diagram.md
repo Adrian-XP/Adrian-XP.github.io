@@ -17,4 +17,4 @@ Adrian’s subsystem for TechMinds’ automatic curtain raiser centers on a Micr
 ## Adrian's Individual Block Diagram 
 
 
-![Adrian's Individual Block Diagram for TechMinds Automatic Curtain Raiser](block-diagram-ap.png)
+![Adrian's Individual Block Diagram for TechMinds Automatic Curtain Raiser](AP_block_diagram.png)
