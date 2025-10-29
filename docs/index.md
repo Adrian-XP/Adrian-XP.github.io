@@ -16,12 +16,11 @@ for<br>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* This datasheet is for the photoresistor subsection of the automatic curtain raiser project. The pages of this datasheet will walk through some of the design decisions, project criteria, and various project elements to simulate professional documentation.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* The goal of the project is to create a system that interacts with other individual subsystems to provide a function that makes the user's life easier. The task Team 206 identified was the tedious task of managing curtains for a room. This was broken down into three subsystems: motion sensing, temperature sensing, and light sensing. You are currently viewing the moisture sensing subsection. The other sections are available via the [team report.](https://asu-egr304-2025-f-206.github.io/EGR304-TechMinds/). 
 
 
 ### My Contribution
