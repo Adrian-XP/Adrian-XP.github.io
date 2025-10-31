@@ -7,11 +7,11 @@ tags:
 <center>
 <font size= "6">Adrian Perez Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> EGR 304</font><br>
 for<br>
 <font size= "5"> Team 206 </font><br>
 
-**Submission: September, 3, 2025**
+**Submission: October 31, 2025**
 </center>
 
 ## Introduction
@@ -20,14 +20,13 @@ for<br>
 
 ### Project Summary
 
-* The goal of the project is to create a system that interacts with other individual subsystems to provide a function that makes the user's life easier. The task Team 206 identified was the tedious task of managing curtains for a room. This was broken down into three subsystems: motion sensing, temperature sensing, and light sensing. You are currently viewing the moisture sensing subsection. The other sections are available via the [team report.](https://asu-egr304-2025-f-206.github.io/EGR304-TechMinds/). 
+* The goal of the project is to create a subsystem that interacts with other individual subsystems to provide a function that makes the user's life easier. The task Team 206 identified was the tedious task of managing curtains for a room. This was broken down into three subsystems: motion sensing, temperature sensing, and light sensing. You are currently viewing the photoresistor subsection. The other sections are available via the [team report.](https://asu-egr304-2025-f-206.github.io/EGR304-TechMinds/). 
 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
-
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
-
-For all the sections
+* To review the diagram relating to the subsection, please visit the ["Block Diagram"](https://adrian-xp.github.io/01-Block-Diagram/Block-Diagram/) section of the datasheet.
+* To review the details regarding the components used to construct the subsection, you can review them in the ["Component Selection"](https://adrian-xp.github.io/02-Component-Selection/Component-Selection/) section of the datasheet.
+* To review the final selection as well as the number of parts, please visit the ["BOM"](https://adrian-xp.github.io/03-BOM/BOM/) section of the datasheet.
+* To review the details regarding the schematic, please visit the ["Schematic"](https://adrian-xp.github.io/04-Schematic/schematic/) section of the datasheet.
+* To review the details regarding power consumption, please visit the ["Power Budget"](https://adrian-xp.github.io/05-Power-Budget/Power-Budget/) section of the database.
