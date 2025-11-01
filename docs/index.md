@@ -20,7 +20,7 @@ for<br>
 
 ### Project Summary
 
-* The goal of the project is to create a subsystem that interacts with other individual subsystems to provide a function that makes the user's life easier. The task Team 206 identified was the tedious task of managing curtains for a room. This was broken down into three subsystems: motion sensing, temperature sensing, and light sensing. You are currently viewing the photoresistor subsection. The other sections are available via the [team report.](https://asu-egr304-2025-f-206.github.io/EGR304-TechMinds/). 
+* The goal of the project is to create a subsystem that interacts with other individual subsystems to provide a function that makes the user's life easier. The task Team 206 identified was the tedious task of managing curtains for a room. This was broken down into three subsystems: motion sensing, temperature sensing, and light sensing. You are currently viewing the photoresistor subsection. The other sections are available via the [team report](https://asu-egr304-2025-f-206.github.io/EGR304-TechMinds/). 
 
 
 ### My Contribution
