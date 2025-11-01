@@ -7,10 +7,10 @@ title: Schematic
 This schematic is designed to support a photoresistor amplifier and a PIC Nano microcontroller.
 
 
-![schematic](AP_Subsystem.png){style width:"350" height:"300;"}
+![schematic](AP_SubsystemV2.png){style width:"350" height:"300;"}
 **Figure #1:** Showing current schematic.
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](Subsystem_Schematic.pdf), and the Zip folder of the project [*here*](Subsystem_Schematic.zip).
+The schematic as a PDF download is available [*here*](Subsystem_Schematic.pdf), and the Zip folder of the project [*here*](SubsystemSchematicV2.zip).
