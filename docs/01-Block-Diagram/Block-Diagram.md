@@ -18,4 +18,4 @@ This block diagram represents Adrian’s subsystem for the Automatic Curtain Con
 
 ![Adrian's Individual Block Diagram for TechMinds Automatic Curtain Raiser](BlockdiagramAP.png)
 
-This block diagram can be found as a PDF [here]()
+This block diagram can be found as a PDF [here](Individual_Block_Diagram.drawio.pdf)
