@@ -11,6 +11,6 @@ The Bill of Materials lists all electrical and mechanical components required fo
 
 
 ## Bill of Materials 
-![](BOM-Screenshot.png){style width: "2000"}
+![](BOM.png){style width: "2000"}
 **Figure 1:** Bill of Materials as a screenshot.
 
