@@ -13,4 +13,4 @@ This schematic is designed to support a photoresistor amplifier and a PIC Nano m
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](Subsystem_Schematic.pdf), and the Zip folder of the project [*here*](SubsystemSchematicV2.zip).
+The schematic as a PDF download is available [*here*](SubsystemSchematicV2.pdf), and the Zip folder of the project [*here*](SubsystemSchematicV2.zip).
