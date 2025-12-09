@@ -26,4 +26,4 @@ Figure 5 - Final top view of PCB
 Figure 6 - Final bottom view of PCB
 
 ## Resources
-The 
+The Zip folder for the project can be downloaded ["here"](Subsystem_PCB_(2).zip), and the Gerber files can be downloaded ["here"](AP_Gerber.zip).
