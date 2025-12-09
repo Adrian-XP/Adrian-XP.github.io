@@ -3,7 +3,7 @@ title: Component Selection
 ---
 
 
-**Op-amp**
+## Component 1: Op-amp
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -18,7 +18,7 @@ title: Component Selection
 
 
 
-**Linear Regulator**
+## Component 2: Voltage Regulator
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -34,7 +34,7 @@ title: Component Selection
 
 
 
-**Photoresistor**
+## Component 3: Photoresistor
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -46,6 +46,17 @@ title: Component Selection
 
 **Rationale:** The NSL-5162 CdS photoresistor was chosen because it offers precise, repeatable light-to-resistance characteristics backed by a detailed datasheet and stable manufacturing. Its wide dynamic range and reliable performance at 3.3 V make it a better long-term, spec-driven choice for consistent ambient-light sensing than hobby-grade LDRs.
 
+
+## Summary Table
+| Component | Name | Image | Price | Link |
+| --------- | ---- | ----- | ----- | ---- |
+| OP-Amp | MCP6004-I/P | ![](MCP6004_IP.png) | $0.59 | [link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) |
+| Voltage Regulator | LM7805T | ![](LM7805T.png) | $0.33 | [link to product](https://www.digikey.com/en/products/detail/taejin/LM7805T/22237260) |
+| Photoresistor | Advanced Photonix NSL-5162 | ![](NSL-5162.png) | $1.06 | [Link to product](https://www.digikey.com/en/products/detail/advanced-photonix/NSL-5162/5039797) |
+
+
+
+## MCC Configuration
 | Module | Function | Direction | Pin | Description |
 | ------ | -------- | --------- | --- | ----------- |
 | UART1  | RX1      | input     | RF1 | UART input  |
