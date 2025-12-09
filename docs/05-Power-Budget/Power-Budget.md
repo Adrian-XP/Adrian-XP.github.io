@@ -15,4 +15,4 @@ Creating the power budget has highlighted the power requirements of my subsystem
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](AP_Power_Budget_-_Power_Budget.pdf.pdf), and a Microsoft Excel Sheet [*here*](AP_Power_Budget.xlsx).
+The power budget as a PDF download is available [*here*](AP_Power_Budget.pdf), and a Microsoft Excel Sheet [*here*](AP_Power_Budget.xlsx).
