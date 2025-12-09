@@ -89,6 +89,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#component-1-op-amp" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -588,6 +593,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Component Selection
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -597,6 +613,68 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#component-1-op-amp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Component 1: Op-amp
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#component-2-voltage-regulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Component 2: Voltage Regulator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#component-3-photoresistor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Component 3: Photoresistor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mcc-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      MCC Configuration
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1006,6 +1084,59 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#component-1-op-amp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Component 1: Op-amp
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#component-2-voltage-regulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Component 2: Voltage Regulator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#component-3-photoresistor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Component 3: Photoresistor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mcc-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      MCC Configuration
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1029,7 +1160,7 @@
 
   <h1>Component Selection</h1>
 
-<p><strong>Op-amp</strong></p>
+<h2 id="component-1-op-amp">Component 1: Op-amp</h2>
 <table>
 <thead>
 <tr>
@@ -1058,7 +1189,7 @@
 </table>
 <p><strong>Choice:</strong> Option 1: MCP6004-I/P</p>
 <p><strong>Rationale:</strong> Runs happily at 3.3 V, rail-to-rail I/O, low Iq, DIP package for quick breadboard/proto. It hits the sensor-signal conditioning needs without SMD headaches or excess cost.</p>
-<p><strong>Linear Regulator</strong></p>
+<h2 id="component-2-voltage-regulator">Component 2: Voltage Regulator</h2>
 <table>
 <thead>
 <tr>
@@ -1087,7 +1218,7 @@
 </table>
 <p><strong>Choice:</strong> Option 1: LM7805T</p>
 <p><strong>Rationale:</strong> 5 V rail for lab bricks ≥7–9 V input. The design time is near zero, and sourcing is painless. If the input headroom is tight, it can be replaced with an LM2940-5.0.</p>
-<p><strong>Photoresistor</strong></p>
+<h2 id="component-3-photoresistor">Component 3: Photoresistor</h2>
 <table>
 <thead>
 <tr>
@@ -1116,6 +1247,42 @@
 </table>
 <p><strong>Choice:</strong> Option 2: Photonix NSL‑5162 CDS Photoresistor</p>
 <p><strong>Rationale:</strong> The NSL-5162 CdS photoresistor was chosen because it offers precise, repeatable light-to-resistance characteristics backed by a detailed datasheet and stable manufacturing. Its wide dynamic range and reliable performance at 3.3 V make it a better long-term, spec-driven choice for consistent ambient-light sensing than hobby-grade LDRs.</p>
+<h2 id="summary-table">Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Name</th>
+<th>Image</th>
+<th>Price</th>
+<th>Link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OP-Amp</td>
+<td>MCP6004-I/P</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../MCP6004_IP.png" data-desc-position="bottom"><img alt="" src="../MCP6004_IP.png"></a></td>
+<td>$0.59</td>
+<td><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060">link to product</a></td>
+</tr>
+<tr>
+<td>Voltage Regulator</td>
+<td>LM7805T</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../LM7805T.png" data-desc-position="bottom"><img alt="" src="../LM7805T.png"></a></td>
+<td>$0.33</td>
+<td><a href="https://www.digikey.com/en/products/detail/taejin/LM7805T/22237260">link to product</a></td>
+</tr>
+<tr>
+<td>Photoresistor</td>
+<td>Advanced Photonix NSL-5162</td>
+<td><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../NSL-5162.png" data-desc-position="bottom"><img alt="" src="../NSL-5162.png"></a></td>
+<td>$1.06</td>
+<td><a href="https://www.digikey.com/en/products/detail/advanced-photonix/NSL-5162/5039797">Link to product</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="mcc-configuration">MCC Configuration</h2>
 <table>
 <thead>
 <tr>
