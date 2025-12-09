@@ -45,3 +45,14 @@ title: Component Selection
 **Choice:** Option 2: Photonix NSL‑5162 CDS Photoresistor
 
 **Rationale:** The NSL-5162 CdS photoresistor was chosen because it offers precise, repeatable light-to-resistance characteristics backed by a detailed datasheet and stable manufacturing. Its wide dynamic range and reliable performance at 3.3 V make it a better long-term, spec-driven choice for consistent ambient-light sensing than hobby-grade LDRs.
+
+| Module | Function | Direction | Pin | Description |
+| ------ | -------- | --------- | --- | ----------- |
+| UART1  | RX1      | input     | RF1 | UART input  |
+| UART1  | TX1      | output    | RF0 | UART output |
+| ADCC   | ADGRDB   | output    | RA7 | Analog input |
+| ADCC   | ANx      | input     | RA2 | Backup pin       |
+| Pins   | GPIO     | input     | RC4 | Debugging Button |
+| Pins   | GPIO     | output    | RB0 | Backup pin |
+| Pins   | GPIO     | output    | RB4 | Backup pin |
+| Pins   | GPIO     | output    | RB5 | Debugging LED |
